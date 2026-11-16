@@ -10,11 +10,10 @@
 body{margin:0;font-family:Tahoma,Arial,sans-serif;background:#f5f7fa;color:#243447;line-height:1.8}
 header{background:#102b46;color:white;padding:25px 15px;text-align:center}
 header h1{color:#e6b85c;margin:5px;font-size:28px}
-header p{margin:5px}
 nav{background:#193c59;text-align:center;padding:12px}
 nav a{color:white;text-decoration:none;margin:8px;display:inline-block}
-.hero{background:linear-gradient(135deg,#102b46,#286080);color:white;text-align:center;padding:65px 15px}
-.hero h2{font-size:30px;color:#f0c66b}
+.hero{background:linear-gradient(135deg,#102b46,#286080);color:white;text-align:center;padding:55px 15px}
+.hero h2{font-size:28px;color:#f0c66b}
 .btn{display:inline-block;background:#e6b85c;color:#102b46;padding:10px 25px;border-radius:8px;text-decoration:none;font-weight:bold}
 .container{max-width:1050px;margin:30px auto;padding:15px}
 h2.section-title{text-align:center;color:#173d5b;margin-bottom:25px}
@@ -23,77 +22,125 @@ h2.section-title{text-align:center;color:#173d5b;margin-bottom:25px}
 .card h3{color:#173d5b}
 .card a{color:#a47a25;text-decoration:none;font-weight:bold}
 .icon{font-size:35px}
-.about{background:#e9f0f5;padding:25px;border-radius:12px;text-align:center}
+.grade{margin-top:45px;padding:25px;background:#e9f0f5;border-radius:12px}
+.grade h2{text-align:center;color:#173d5b}
+.about{background:#e9f0f5;padding:25px;border-radius:12px;text-align:center;margin-top:35px}
 footer{background:#102b46;color:white;text-align:center;padding:25px;margin-top:40px}
 footer a{color:#e6b85c}
 </style>
 </head>
 <body>
-
 <header>
 <h1>مدرسة الضاد الرقمية</h1>
 <p>فضاء المعرفة والإبداع اللغوي</p>
 </header>
-
 <nav>
 <a href="#home">الرئيسية</a>
-<a href="#lessons">الدروس</a>
-<a href="#exercises">التمارين</a>
+<a href="#years">السنوات الدراسية</a>
 <a href="#library">المكتبة</a>
 <a href="#contact">راسل الأستاذ</a>
 </nav>
-
 <section class="hero" id="home">
 <h2>لغتنا العربية.. هويتنا وإبداعنا</h2>
 <p>تعلم، اكتشف، تدرب، وارتقِ بلغتك العربية.</p>
-<a class="btn" href="#lessons">اكتشف الدروس</a>
+<a class="btn" href="#years">اختر سنتك الدراسية</a>
 </section>
-
 <main class="container">
-<h2 class="section-title">أقسام المدرسة</h2>
-<div class="cards" id="lessons">
+<h2 class="section-title" id="years">الأقسام التعليمية</h2>
+<div class="cards">
 <div class="card">
-<div class="icon">📚</div>
-<h3>الدروس التعليمية</h3>
-<p>دروس اللغة العربية وشروحاتها.</p>
-<a href="#contact">اكتشف المزيد</a>
-</div>
-<div class="card" id="exercises">
-<div class="icon">✍️</div>
-<h3>التمارين والاختبارات</h3>
-<p>تدرب واختبر مكتسباتك.</p>
-<a href="#contact">اكتشف المزيد</a>
+<div class="icon">📘</div>
+<h3>السنة الأولى ثانوي</h3>
+<p>دروس وتمارين واختبارات في اللغة العربية.</p>
+<a href="#first-year">الدخول إلى القسم</a>
 </div>
 <div class="card">
-<div class="icon">🖼️</div>
-<h3>الصور والملخصات</h3>
-<p>وسائل تعليمية وملخصات مفيدة.</p>
-<a href="#contact">اكتشف المزيد</a>
+<div class="icon">📗</div>
+<h3>السنة الثانية ثانوي</h3>
+<p>دروس وتمارين واختبارات في اللغة العربية.</p>
+<a href="#second-year">الدخول إلى القسم</a>
 </div>
-<div class="card" id="library">
-<div class="icon">📖</div>
-<h3>المكتبة الأدبية</h3>
-<p>نصوص وقصائد ومطالعات.</p>
-<a href="#contact">اكتشف المزيد</a>
+<div class="card">
+<div class="icon">📕</div>
+<h3>السنة الثالثة ثانوي</h3>
+<p>دروس وتمارين واختبارات في اللغة العربية.</p>
+<a href="#third-year">الدخول إلى القسم</a>
 </div>
 </div>
-
-<section class="about" style="margin-top:35px">
-<h2>مرحبًا بكم في مدرسة الضاد الرقمية</h2>
-<p>فضاء تعليمي يهدف إلى تقريب المعرفة من المتعلمين، وتوفير الدروس والأنشطة والموارد التعليمية في مادة اللغة العربية.</p>
+<section class="grade" id="first-year">
+<h2>📘 السنة الأولى ثانوي</h2>
+<div class="cards">
+<div class="card">
+<h3>📚 الدروس</h3>
+<p>النصوص الأدبية والقواعد والبلاغة.</p>
+<a href="#contact">عرض الدروس</a>
+</div>
+<div class="card">
+<h3>✍️ التمارين</h3>
+<p>تطبيقات وأنشطة لترسيخ المكتسبات.</p>
+<a href="#contact">عرض التمارين</a>
+</div>
+<div class="card">
+<h3>📝 الاختبارات</h3>
+<p>فروض واختبارات الفصول الثلاثة.</p>
+<a href="#contact">عرض الاختبارات</a>
+</div>
+</div>
 </section>
-
+<section class="grade" id="second-year">
+<h2>📗 السنة الثانية ثانوي</h2>
+<div class="cards">
+<div class="card">
+<h3>📚 الدروس</h3>
+<p>النصوص الأدبية والقواعد والبلاغة.</p>
+<a href="#contact">عرض الدروس</a>
+</div>
+<div class="card">
+<h3>✍️ التمارين</h3>
+<p>تطبيقات وأنشطة لترسيخ المكتسبات.</p>
+<a href="#contact">عرض التمارين</a>
+</div>
+<div class="card">
+<h3>📝 الاختبارات</h3>
+<p>فروض واختبارات الفصول الثلاثة.</p>
+<a href="#contact">عرض الاختبارات</a>
+</div>
+</div>
+</section>
+<section class="grade" id="third-year">
+<h2>📕 السنة الثالثة ثانوي</h2>
+<div class="cards">
+<div class="card">
+<h3>📚 الدروس</h3>
+<p>النصوص الأدبية والقواعد والبلاغة.</p>
+<a href="#contact">عرض الدروس</a>
+</div>
+<div class="card">
+<h3>✍️ التمارين</h3>
+<p>تطبيقات وأنشطة للتحضير للبكالوريا.</p>
+<a href="#contact">عرض التمارين</a>
+</div>
+<div class="card">
+<h3>📝 الاختبارات</h3>
+<p>فروض واختبارات ومواضيع بكالوريا.</p>
+<a href="#contact">عرض الاختبارات</a>
+</div>
+</div>
+</section>
+<section class="about" id="library">
+<h2>📖 المكتبة الأدبية</h2>
+<p>فضاء للنصوص والقصائد والمطالعات والملفات التعليمية.</p>
+<p>سيتم إضافة الموارد والملفات القابلة للتحميل تدريجيًا.</p>
+</section>
 <section id="contact" style="text-align:center;margin-top:40px">
 <h2 class="section-title">راسل الأستاذ</h2>
-<p>هل لديك سؤال أو استفسار؟ يمكنك التواصل معنا عبر صفحة المراسلة.</p>
+<p>هل لديك سؤال أو استفسار؟</p>
 <p>سيتم تفعيل صندوق الرسائل في المرحلة القادمة.</p>
 </section>
 </main>
-
 <footer>
 <p>مدرسة الضاد الرقمية</p>
 <p>نتعلم، نبدع، ونرتقي باللغة العربية.</p>
 </footer>
-
 </body>
 </html>
